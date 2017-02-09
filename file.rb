@@ -10,6 +10,10 @@ class MarkovChainGenerator
 
     def generate(len)
         @current_word = @file[0]
+        for i in (1..len)
+            @list = get_list
+            @list.sort_by {|key, value| value}.reverse.to_h
+        end
     end
 
     private
@@ -28,4 +32,15 @@ class MarkovChainGenerator
         end
         return @succeeding_words
     end
+
+    def select_word 
+        @sum = @list.values.inject(0, &:+)
+        r = Random.new 
+        @rand_num = r.rand(0..@sum)
+        idx = 0 
+        while idx < @list.values.length 
+            if @rand_num <= @list.values[0..idx].inject(0, &:+)
+            end 
+        end
+    end 
 end
