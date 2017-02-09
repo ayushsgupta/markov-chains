@@ -24,6 +24,7 @@ class MarkovChainGenerator
                 else
                     @succeeding_words[@file[index]] = 1
                 end
+            end
         end
         return @succeeding_words
     end
