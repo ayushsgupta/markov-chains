@@ -8,10 +8,15 @@ module MarkovChain
         file << ""
         
         current_word = file[0]
-        for i in (1..len)
-            @list = get_list
-            @list.sort_by {|key, value| value}.reverse.to_h
-        end
+        final_string = ""
+        
+        for i in (1..len) 
+            final_string << current_word
+            succeeding_words = get_list 
+            current_word = select_word
+        end 
+        
+        return final_string
     end
 
     private
@@ -19,6 +24,7 @@ module MarkovChain
     def self.get_list
         succeeding_words = {}
         index = 0
+        
         while index < file.length - 1
             if file[index] == current_word && file[index + 1] != ""
                 if succeeding_words.has_key?(file[index + 1])
@@ -29,17 +35,30 @@ module MarkovChain
             end
             index += 1
         end
-        return succeeding_words
+        
+        succeeding_words = succeeding_words.sort_by {|key, value| value}.reverse
+        return succeeding_words 
     end
 
     def self.select_word 
-        sum = list.values.inject(0, &:+)
-        r = Random.new 
+        frequency_list = []
+        succeeding_words.each {|random_array| frequency_list << random_array[1]}
+
+        sum = frequency_list.inject(0, &:+)
+        r = Random.new
         rand_num = r.rand(0..sum)
-        idx = 0 
-        while idx < list.values.length 
-            if rand_num <= list.values[0..idx].inject(0, &:+)
-            end 
+        index = 0
+        final_pos = 0
+        flag_1 = false
+
+        until flag_1 == true
+            if rand_num <= frequency_list[0..index].inject(0, &:+)
+                final_pos = index
+                flag_1 = true
+            end
+            index += 1
         end
+        
+        return succeeding_words[final_pos][0]
     end 
 end
