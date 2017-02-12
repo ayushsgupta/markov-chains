@@ -1,0 +1,33 @@
+Buckminsterfullerene (or bucky-ball) is a spherical fullerene molecule with the formula C60. It has a cage-like fused-ring structure (truncated icosahedron) which resembles a football (soccer ball), made of twenty hexagons and twelve pentagons, with a carbon atom at each vertex of each polygon and a bond along each polygon edge.
+
+It was first generated in 1985 by Harold Kroto, James R. Heath, Sean O'Brien, Robert Curl, and Richard Smalley at Rice University.[2] Kroto, Curl and Smalley were awarded the 1996 Nobel Prize in Chemistry for their roles in the discovery of buckminsterfullerene and the related class of molecules, the fullerenes. The name is a reference to Buckminster Fuller, as C60 resembles his trademark geodesic domes. Buckminsterfullerene is the most common naturally occurring fullerene molecule, as it can be found in small quantities in soot.[3][4] Solid and gaseous forms of the molecule have been detected in deep space.[5]
+
+Buckminsterfullerene is one of the largest objects to have been shown to exhibit wave–particle duality; as stated in the theory every object exhibits this behavior.[6][7] Its discovery led to the exploration of a new field of chemistry, involving the study of fullerenes.
+
+Buckminsterfullerene derives from the name of the noted futurist and inventor Buckminster Fuller. One of his designs of a geodesic dome structure bears great resemblance to C60; as a result, the discoverers of the allotrope named the newfound molecule after him. The general public, however, sometimes refers to buckminsterfullerene, and even Fuller's dome structure, as buckyballs.[8]
+
+The structure of a buckminsterfullerene is a truncated icosahedron with 60 vertices and 32 faces (20 hexagons and 12 pentagons where no pentagons share a vertex) with a carbon atom at the vertices of each polygon and a bond along each polygon edge. The van der Waals diameter of a C
+60 molecule is about 1.01 nanometers (nm). The nucleus to nucleus diameter of a C
+60 molecule is about 0.71 nm. The C
+60 molecule has two bond lengths. The 6:6 ring bonds (between two hexagons) can be considered "double bonds" and are shorter than the 6:5 bonds (between a hexagon and a pentagon). Its average bond length is 0.14 nm. Each carbon atom in the structure is bonded covalently with 3 others.[28]
+
+C60 forms complexes akin to the more common alkenes. Complexes have been reported molybdenum, tungsten, platinum, palladium, iridium, and titanium. The pentacarbonyl species are produced by photochemical reactions.
+
+Addition of fluorine, chlorine, and bromine occurs for C60.
+
+Fluorine atoms are small enough for a 1,2-addition, while Cl2 and Br2 add to remote C atoms due to steric factors. For example, in C60Br8 and C60Br24, the Br atoms are in 1,3- or 1,4-positions with respect to each other.
+
+Under various conditions a vast number of halogenated derivatives of C60 can be produced, some with extraordinary selectivity on one or two isomers over the other possible ones.
+
+Addition of fluorine and chlorine usually results in a flattening of the C60 framework into a drum-shaped molecule.[56]
+
+No application of C60 has been commercialized. In the medical field, elements such as helium (that can be detected in minute quantities) can be used as chemical tracers in impregnated buckyballs.
+
+Water-soluble derivatives of C60 were discovered to exert an inhibition on the three isoforms of nitric oxide synthase, with slightly different potencies.[60]
+
+Metal atoms or certain small molecules such as H2 and noble gas can be encapsulated inside the C60 cage. These endohedral fullerenes are usually synthesized by doping in the metal atoms in an arc reactor or by laser evaporation. These methods gives low yields of endohedral fullerenes, and a better method involves the opening of the cage, packing in the atoms or molecules, and closing the opening using certain organic reactions. This method, however, is still immature and only a few species have been synthesized this way.[59]
+
+Endohedral fullerenes show distinct and intriguing chemical properties that can be completely different from the encapsulated atom or molecule, as well as the fullerene itself. The encapsulated atoms have been shown to perform circular motions inside the C60 cage, and its motion has been followed by using NMR spectroscopy.[58]
+
+The optical absorption properties of C60 match solar spectrum in a way that suggests that C60-based films could be useful for photovoltaic applications. Because of its high electronic affinity [61] it is one of the most common electron acceptors used in donor/acceptor based solar cells. Conversion efficiencies up to 5.7% have been reported in C60–polymer cells.[62]
+
