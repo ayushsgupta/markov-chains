@@ -6,25 +6,29 @@ module MarkovChain
             word.downcase
         end
         file << ""
-        
+
         current_word = file[0]
         final_string = ""
-        
-        for i in (1..len) 
-            final_string << current_word
-            succeeding_words = get_list 
-            current_word = select_word
-        end 
-        
+
+        for i in (1..len)
+            final_string << current_word + " "
+            succeeding_words = get_list(file, current_word)
+            new_current = ""
+            until new_current != ""
+                new_current = select_word(succeeding_words)
+            end
+            current_word = new_current
+        end
+
         return final_string
     end
 
     private
 
-    def self.get_list
+    def self.get_list(file, current_word)
         succeeding_words = {}
         index = 0
-        
+
         while index < file.length - 1
             if file[index] == current_word && file[index + 1] != ""
                 if succeeding_words.has_key?(file[index + 1])
@@ -35,12 +39,12 @@ module MarkovChain
             end
             index += 1
         end
-        
+
         succeeding_words = succeeding_words.sort_by {|key, value| value}.reverse
-        return succeeding_words 
+        return succeeding_words
     end
 
-    def self.select_word 
+    def self.select_word(succeeding_words)
         frequency_list = []
         succeeding_words.each {|random_array| frequency_list << random_array[1]}
 
@@ -58,7 +62,7 @@ module MarkovChain
             end
             index += 1
         end
-        
+
         return succeeding_words[final_pos][0]
-    end 
+    end
 end
