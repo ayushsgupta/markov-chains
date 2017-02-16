@@ -2,7 +2,6 @@ module MarkovChain
     def self.generate(filename, len)
         file = File.open(filename) {|f| f.read.split}
         file.map! do |word|
-            word.downcase
             word.gsub!(/\d/, "")
             word = word.split("").keep_if {|a| a =~ /\w|-/}.join
         end
