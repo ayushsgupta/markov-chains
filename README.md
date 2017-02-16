@@ -14,3 +14,8 @@ MarkovChain.generate("buckminsterfullerene.txt", 300)
 ```ruby 
 MarkovChain.generate("markov_text.txt", 200) 
 => "In his first paper on the topic in Bayesian statistics for a sample document they can be accurately reflect very high and outs and play a background and bioinformatics field they may be simulated and describe job service times are linked to a new approach has been used in a type of Markov Switching Multifractal model of such example imagine a wide range of capitalism In other the possible combinations of posterior distributions to the change in many games of asset returns Dynamic macroeconomics heavily uses of the monomers tend to be simulated and Henry William Feller starting in a method of customers arriving at rate of some epitaxial superlattice oxide materials can also used in him publishing in simulations of numbers to thermal noise or indexed by Paul and SuperCollider In probability distributions via a molecule Markov process had been used to it was partly inspired by Markov property The adjective Markovian systems need to define a Markov processes and low GDP growth of phrasal structure rather than Kolmogorov while transitions from Prasad et al in the growth of information theory Agner Krarup Erlang initiated the molecules are the past ie it was partly inspired by Francis Galton and"
+```
+```ruby 
+MarkovChain.generate("constitution.txt", 50) 
+=> "Article and under the United States shall think proper to make a President the Value thereof and Equity arising under their respective Offices and in Office of President of Adjournment he enter the public Ministers and who have Power by Ballot the State nor any Claims of any other Emolument"
+
