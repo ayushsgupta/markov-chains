@@ -13,11 +13,12 @@ module MarkovChain
 
         for i in (1..len)
             final_string << current_word + " "
-            succeeding_words = get_list(file, current_word)
+            succeeding_words = get_list(file, current_word, old_word)
             new_current = ""
             until new_current != ""
                 new_current = select_word(succeeding_words)
             end
+            old_word = current_word
             current_word = new_current
         end
 
@@ -26,7 +27,7 @@ module MarkovChain
 
     private
 
-    def self.get_list(file, current_word)
+    def self.get_list(file, current_word, old_word)
         succeeding_words = {}
         index = 0
 
@@ -40,6 +41,8 @@ module MarkovChain
             end
             index += 1
         end
+        
+        succeeding_words = get_list(file, old_word, file[0]) if succeeding_words.empty?
 
         succeeding_words = succeeding_words.sort_by {|key, value| value}.reverse
         return succeeding_words
