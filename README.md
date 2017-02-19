@@ -18,4 +18,8 @@ MarkovChain.generate("markov_text.txt", 200)
 ```ruby 
 MarkovChain.generate("constitution.txt", 50) 
 => "Article and under the United States shall think proper to make a President the Value thereof and Equity arising under their respective Offices and in Office of President of Adjournment he enter the public Ministers and who have Power by Ballot the State nor any Claims of any other Emolument"
+```
+
+##Walker Examples
+![Markov Walker](file:///C:/Users/ayushg/Desktop/Capture.PNG)
 
