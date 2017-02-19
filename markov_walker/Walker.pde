@@ -17,7 +17,9 @@ class Walker {
   }
   
   void display() {
-    stroke(0); 
+    int color_a = int(map(x - y, 0, (width + height) / 2, 0, 256)); 
+    int color_b = int(map(y - x, 0, (width + height) / 2, 0, 256)); 
+    stroke(color_a, color_b, 255); 
     point(x, y); 
   }
   
