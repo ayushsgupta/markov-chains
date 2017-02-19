@@ -21,5 +21,5 @@ MarkovChain.generate("constitution.txt", 50)
 ```
 
 ##Walker Examples
-![Markov Walker](file:///C:/Users/ayushg/Desktop/Capture.PNG)
+![Markov Walker](https://github.com/ayushsgupta/markov-chains/blob/master/markov_walker/Capture.PNG)
 
