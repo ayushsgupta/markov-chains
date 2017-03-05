@@ -23,4 +23,5 @@ def __get_list(text, current_word):
             return_list.append(text[idx + 1])
     if not return_list:
         return_list = get_list(text, text[0])
+    random.shuffle(return_list)
     return return_list
