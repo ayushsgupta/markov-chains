@@ -17,7 +17,7 @@ class Matrix1
     	    for i in (0...@rows)
     	        for j in (0...columnSecond)
     			    for k in (0...@columns)
-    				    ret[i][j] += @array[i][k] * b[k][j];
+    				    ret[i][j] += @array[i][k] * b[k][j]
     	            end
     		    end
     	    end
@@ -152,12 +152,12 @@ class MarkovChain
         @probability_vector.round
     end
 end
-=begin 
+=begin
 t = TransitionMatrix.new([[0.6, 0.4], [0.7, 0.3]])
-v = ProbabilityVector.new([[0.9, 0.1]])
+v = ProbabilityVector.new([[0.56, 0.44]])
 myMarkov = MarkovChain.new(t, v)
 p myMarkov.probability_vector
-for i in (1..10)
+for i in (1..5)
     puts i
     myMarkov.trial
     p myMarkov.probability_vector
@@ -168,3 +168,10 @@ p myMarkov.equilibrium
 #p myMarkov.probability_vector
 #p myMarkov.equilibrium
 =end
+
+t = TransitionMatrix.new([[0.9, 0.1], [0.5, 0.5]])
+v = ProbabilityVector.new([[0.9, 0.1]])
+weather = MarkovChain.new(t, v)
+
+weather.trial
+p weather.transition_matrix
