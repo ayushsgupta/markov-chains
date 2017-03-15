@@ -1,7 +1,7 @@
 # markov-chains
 Working with Markov chains for my Analysis research project.
 
-##Ruby Text Examples
+## Ruby Text Examples
 ```ruby
 MarkovChain.generate("trump_inauguration.txt", 100)
 => "chief justice roberts president obama and no longer everyone watching all bleed the same glorious freedoms and their gracious aid throughout this transition they celebrated in every hall of our jobs left and reasonable demands of so with the rewards of our borders we will never be done every hall of nebraska they celebrated in every breath of dollars overseas while americas infrastructure has been your country their pain their dreams and we will no room for their children trapped in our government is when you now you the wealth of our inner cities rustedout factories scattered like tombstones across"
@@ -20,12 +20,12 @@ MarkovChain.generate("constitution.txt", 50)
 => "Article and under the United States shall think proper to make a President the Value thereof and Equity arising under their respective Offices and in Office of President of Adjournment he enter the public Ministers and who have Power by Ballot the State nor any Claims of any other Emolument"
 ```
 
-##Python Text Examples
+## Python Text Examples
 ```python
 generate("trump_bio.txt", 500)
 => "Donald Trump promising to Moscow to as polls consistently showed Hillary Clinton called "false smears", and his son Donald Trump and the remainder of Trump speaking with Mike Pence were recorded several months after losing the fifth person to people originating from the Trans-Pacific Partnership (TPP),[602] and golf courses."
 ```
 
-##Walker Examples
+## Walker Examples
 ![Markov Walker](https://github.com/ayushsgupta/markov-chains/blob/master/markov_walker/Capture.PNG)
 
